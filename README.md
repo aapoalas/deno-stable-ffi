@@ -55,6 +55,8 @@ class OwnedPointer {
      */
     getDataView?(): DataView;
 }
+
+// Thread-safe callbacks, and storable callbacks TBD
 ```
 
 ## Nonblocking FFI calls
