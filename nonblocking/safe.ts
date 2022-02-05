@@ -12,6 +12,7 @@
  *
  * To do this we need to use the `structuredClone` API. A better alternative
  * will be the `ArrayBuffer.prototype.transfer` method if/when it lands.
+ * See: https://tc39.es/proposal-resizablearraybuffer/#sec-arraybuffer.prototype.transfer
  */
 
 class OwnedPointer {
