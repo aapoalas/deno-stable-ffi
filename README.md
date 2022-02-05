@@ -117,3 +117,13 @@ It is a bit unclear if this should just be the same thing as storable callbacks.
 
 Questions:
 1. If the JavaScript side callback is `async`, should the thread-safe callback thread block until the JS promise resolves? What happens if the promise rejects?
+
+# Acknowledgements
+
+This proposal is not mine to claim credit for, not fully at the very least. The following persons were of immense help:
+* @DjDeveloperr
+* @divy
+* @Andreu Botella
+* @evan
+* @bartlomieju
+* @crowlKats
